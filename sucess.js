@@ -31,7 +31,7 @@ document.querySelector('#on').addEventListener('click', function(){
    console.log("hi");
    alert("Remember : please remember to add employment history ");
    var documentID11 = document.getElementById("product");
-   documentID11.innerHTML = "click on download button given below";
+  
    
    
    

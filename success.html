@@ -28,12 +28,12 @@
 </head>
 
 <body>
-    <button class="btn btn-primary" id="download"> download pdf</button>
+
 
     <h1 class="intro">BEST RESUME</h1>
     <div class="progress ">
         <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="25" aria-valuemin="0"
-            aria-valuemax="100" id = "chumu1">0%</div>
+            aria-valuemax="100" id="chumu1">0%</div>
     </div>
     <form action="output.html" method="get">
         <div class="container Details" id="invoice">
@@ -43,129 +43,145 @@
 
                 <div class="col-md-6 mb-3">
                     <label for="First name">First name</label>
-                    <input type="text" class="form-control cl"  placeholder="e.g: Archita" value=""
-                        required style="background-color: rgb(239, 242, 249);" id="First name" name="First name">
-                    
+                    <input type="text" class="form-control cl" placeholder="e.g: Archita" value="" required
+                        style="background-color: rgb(239, 242, 249);" id="First name" name="First name">
+
 
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="Last Name">Last name</label>
-                    <input type="text" class="form-control cl"  placeholder="e.g: Poddar" value="" required
-                        style="background-color: rgb(239, 242, 249); " id="Last Name" name= "Last Name">
-                        
+                    <input type="text" class="form-control cl" placeholder="e.g: Poddar" value="" required
+                        style="background-color: rgb(239, 242, 249); " id="Last Name" name="Last Name">
+
 
                 </div>
-                
-                
+
+
 
                 <div class="col-md-6 mb-3">
                     <label for="Email">Email</label>
                     <input type="email" class="form-control cl" id="Email" placeholder="you@example.com"
-                        style="background-color: rgb(239, 242, 249);" name = "Email">
+                        style="background-color: rgb(239, 242, 249);" name="Email">
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="PN">Phone Nmber</label>
-                    <input type="text" class="form-control cl" id="PN" placeholder="e.g: 8017644024" value=""
-                        required style="background-color: rgb(239, 242, 249);" name="PN">
+                    <input type="text" class="form-control cl" id="PN" placeholder="e.g: 8017644024" value="" required
+                        style="background-color: rgb(239, 242, 249);" name="PN">
 
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="Nation">Nationality</label>
-                    <input type="text" class="form-control cl" id="Nation" placeholder="e.g: Indian" value=""
-                        required style="background-color: rgb(239, 242, 249);" name="Nation">
+                    <input type="text" class="form-control cl" id="Nation" placeholder="e.g: Indian" value="" required
+                        style="background-color: rgb(239, 242, 249);" name="Nation">
 
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="BD">Date of birth </label>
-                    <input type="text" class="form-control cl" id="BD" placeholder="e.g: 11/12/2003" value=""
-                        required style="background-color: rgb(239, 242, 249);" name="BD">
+                    <input type="text" class="form-control cl" id="BD" placeholder="e.g: 11/12/2003" value="" required
+                        style="background-color: rgb(239, 242, 249);" name="BD">
 
                 </div>
             </div>
             <br>
-            <button type="button" class="btn btn-primary btn-lg"  onclick="bar()">info update</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick="bar()">info update</button>
         </div>
-        
-    
-    <div class="container Summary">
-        <br>
-        <h2>Profesional Summary
-            <br> <span class="text-muted">Write 2-4 short & energetic sentences to interest the reader! Mention your
-                role, experience & most importantly - your biggest achievements, best qualities and skills.</span> <br>
-        </h2>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"
-            placeholder="e.g. Andrew Tate is the best human being on Earth."
-            style="background-color: rgb(239, 242, 249);" id = "TE" name="TE"></textarea>
-        <br>
-        <button class="btn btn-primary btn-lg" type="button" onclick="bar()">info update</button>
-        
 
 
-    </div>
-    
-    <div class="container History">
-        <br>
-        <h2>Employment History
-            <br> <span class="text-muted">"Show your relevant experience (last 10 years). Use bullet points to note your
-                achievements, if possible - use numbers/facts (Achieved X, measured by Y, by doing Z)."</span> <br>
-        </h2>
-        <button type="button" class="btn btn-outline-info" id="on">add</button>
-        <br>
 
-        <div class="hide" id="collapse" style="border-style:solid ;
-        border-color: #F6F1E9;" name ="collapse">
-            <div class="row">
-
-                <div class="col-md-6 mb-3">
-                    <br>
-                    <label for="CompanyName">Company Name</label>
-                    <input type="text" class="form-control cl" id="JT" placeholder="e.g: GOOGLE" value=""
-                        style="background-color: rgb(239, 242, 249);" name ="JT">
-
-                </div>
-
-                <div class="col-md-6 mb-3">
-                    <br>
-                    <label for="Position">Position</label>
-                    <input type="text" class="form-control cl" id="P" value="" placeholder="e.g: CEO" 
-                        style="background-color: rgb(239, 242, 249);" name="P">
-                </div>
-            </div>
+        <div class="container Summary">
+            <br>
+            <h2>Profesional Summary
+                <br> <span class="text-muted">Write 2-4 short & energetic sentences to interest the reader! Mention your
+                    role, experience & most importantly - your biggest achievements, best qualities and skills.</span>
+                <br>
+            </h2>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"
-                placeholder="e.g. describe your position in the company. "
-                style="background-color: rgb(239, 242, 249);" name="exampleFormControlTextarea1"></textarea>
+                placeholder="e.g. Andrew Tate is the best human being on Earth."
+                style="background-color: rgb(239, 242, 249);" id="TE" name="TE" required></textarea>
             <br>
             <button class="btn btn-primary btn-lg" type="button" onclick="bar()">info update</button>
-            
 
 
-
-
-
-
-
-
-            <button  type="button" class="btn btn-primary btn-sm" onclick="offi()">close</button>
 
         </div>
-    </div>
-    <div class="container hobbies">
-        <h2>Hobbies
-            <br> <span class="text-muted">what you like to do ?.</span> <br>
-        </h2>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="e.g. drawing ,chess etc"
-            style="background-color: rgb(239, 242, 249);" id = "H" name="H"></textarea>
+
+        <div class="container History">
+            <br>
+            <h2>Employment History
+                <br> <span class="text-muted">"Show your relevant experience (last 10 years). Use bullet points to note
+                    your
+                    achievements, if possible - use numbers/facts (Achieved X, measured by Y, by doing Z)."</span> <br>
+            </h2>
+            <button type="button" class="btn btn-outline-info" id="on">add</button>
+            <br>
+
+            <div class="hide" id="collapse" style="border-style:solid ;
+        border-color: #F6F1E9;" name="collapse">
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+                        <br>
+                        <label for="CompanyName">Company Name</label>
+                        <input type="text" class="form-control cl" id="JT" placeholder="e.g: GOOGLE" value=""
+                            style="background-color: rgb(239, 242, 249);" name="JT" required>
+
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <br>
+                        <label for="Position">Position</label>
+                        <input type="text" class="form-control cl" id="P" value="" placeholder="e.g: CEO"
+                            style="background-color: rgb(239, 242, 249);" name="P" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"
+                    placeholder="e.g. describe your position in the company. "
+                    style="background-color: rgb(239, 242, 249);" name="exampleFormControlTextarea1"
+                    required></textarea>
+                <br>
+                <button class="btn btn-primary btn-lg" type="button" onclick="bar()">info update</button>
+
+
+
+
+
+
+
+
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="offi()">close</button>
+
+            </div>
+        </div>
+        <div class="container hobbies">
+            <br>
+            <h2>Hobbies
+                <br> <span class="text-muted">what you like to do ?.</span> <br>
+            </h2>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"
+                placeholder="e.g. drawing ,chess etc" style="background-color: rgb(239, 242, 249);" id="H" name="H"
+                required></textarea>
+            <br>
+            <button class="btn btn-primary btn-lg" type="button" onclick="bar()">info update</button>
+
+
+
+        </div>
         <br>
-        <button class="btn btn-primary btn-lg" type="button" onclick="bar()">info update</button>
-        
+        <div class="ui">
+            <button type="button" class="btn btn-success btn-lg " id="product" onclick="hui()">click if Finished </button>
 
+            <br>
+            <br>
+            <h2>THANK YOU</h2>
+            <br>
 
-    </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="product1" onclick="sendData()">CLICK here
+                to download the given info </button>
+        </div>
+    </form>
     <br>
-    <button type="submit" class="btn btn-primary btn-lg btn-block" id="product" onclick="sendData()">Road to Bright Future</button>
-</form>
-    <br>
-    
+
     <br>
 
 

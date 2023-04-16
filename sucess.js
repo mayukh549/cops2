@@ -27,8 +27,10 @@ document.querySelector('#on').addEventListener('click', function(){
 
  }
  //
- document.querySelector('#product').addEventListener('click', function(){ 
-   alert("hi");
+ function hui(){ 
+   console.log("hi");
+   alert("please remember to add employment history ");
+   
    
    
 
@@ -38,7 +40,7 @@ document.querySelector('#on').addEventListener('click', function(){
 
 
 
-});
+}
 var khanki =0;
 function bar(){
    

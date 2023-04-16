@@ -14,9 +14,3 @@ window.onload = function () {
             html2pdf().from(invoice).set(opt).save();
         })
 }
-function getData() {
-    var data = localStorage.getItem("data");
-    if (data) {
-      document.getElementById("outputData").innerHTML = "Data from File 1: " + data;
-    }
-  }

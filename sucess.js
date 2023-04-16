@@ -29,7 +29,9 @@ document.querySelector('#on').addEventListener('click', function(){
  //
  function hui(){ 
    console.log("hi");
-   alert("please remember to add employment history ");
+   alert("Remember : please remember to add employment history ");
+   var documentID11 = document.getElementById("product");
+   documentID11.innerHTML = "click on doenload button givem below";
    
    
    
